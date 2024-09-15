@@ -16,7 +16,7 @@
 
 
 header {
-    background-image: url(./imagens/img.png);
+    background-image: url(./imagens/bg\ mobile.png);
     background-size: cover;
     height: 8.375rem;
     display: flex;
@@ -109,6 +109,22 @@ main {
 .login > p a{
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media(min-width: 1000px){
+    header {
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+
+    header img{
+        width: 10rem;
+    }
+
+    main {
+        padding-inline: 7rem;
+    }
 }
 
 
